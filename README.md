@@ -1,6 +1,6 @@
 ## Project setup
 
-Project setup instructions here. => => updated 
+Project setup instructions here. => =>f updated 
 
 ```bash
 mkdir -p local
