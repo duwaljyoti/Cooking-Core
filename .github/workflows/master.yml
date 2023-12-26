@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/github
-          sudo chmod 600 ~/.ssh/github
+          chmod 600 ~/.ssh/github
           cat >>~/.ssh/config <<END
           Host target
             HostName $SSH_HOST
