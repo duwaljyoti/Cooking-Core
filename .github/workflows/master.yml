@@ -33,4 +33,4 @@ jobs:
           END
       - name: Run deploy
         run: |
-          ssh target "cd Cooking-Core/ && pwd"
+          ssh target "cd Cooking-Core/ && docker-compose down"
