@@ -21,4 +21,4 @@ jobs:
     steps:
       - name: Run deploy
         run: |
-          ssh target "cd /home/ubuntu/Cooking-Core/ && docker-compose down && git pull && docker-compose build && docker-compose up -d --force-recreate"
+          ssh target "cd Cooking-Core/ && docker-compose down && git pull && docker-compose build && docker-compose up -d --force-recreate"
